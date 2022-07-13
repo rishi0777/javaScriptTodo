@@ -1,0 +1,51 @@
+body {
+  background-color: #111111;
+  color: #fff;
+}
+
+.nav-dark {
+  color: #fff;
+  background-color: #252525;
+  display: flex;
+  justify-content: space-between;
+}
+.card {
+  /* border: 0.1rem solid #252525; */
+  background-color: #111111;
+}
+h3 {
+  color: #909090;
+}
+
+.notesBody {
+  display: flex;
+  flex-direction: column;
+}
+.rowOfNotes {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+}
+
+.singleNote {
+  flex: 0.23;
+  background-color: #252525;
+  color: #fff;
+  /* border: 0.1rem solid #fff; */
+  border-radius: 1rem;
+}
+
+.noteTitle,
+.noteDescription,
+.buttonOptions,
+.noteDate {
+  padding-left: 1rem;
+}
+.noteTitle {
+  padding-top: 1rem;
+  font-weight: bold;
+}
+.buttonOptions {
+  padding-bottom: 1rem;
+}
